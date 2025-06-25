@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPERA - Inventaris Diskominfo Pontianak</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>SIMPERA</h1>
+            <p>Sistem Inventaris Peralatan Diskominfo Kota Pontianak</p>
+        </div>
+        <div class="user-info">
+            <span id="welcome-message"></span>
+            <button id="btn-logout">Logout</button>
+        </div>
+    </header>
+    <main>
+        <div class="toolbar">
+            <div>
+                <button id="btn-tambah" style="display:none;">Tambah Peralatan Baru</button>
+                <button id="btn-unduh-excel">Unduh Excel</button>
+            </div>
+            <input type="text" id="search-input" placeholder="Cari peralatan...">
+        </div>
+        </main>
+    <footer><p>&copy; 2025 - Diskominfo Kota Pontianak</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
