@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- STATE & KONFIGURASI ---
-    const API_URL = 'https://merry-brioche-1ca523.netlify.app'; // Ganti ini saat deploy!
+    const API_URL = 'https://simpera-new.onrender.com/api'; // Ganti ini saat deploy!
     const token = localStorage.getItem('token');
     const user = JSON.parse(localStorage.getItem('user'));
     let inventory = []; // Data akan diisi dari API
